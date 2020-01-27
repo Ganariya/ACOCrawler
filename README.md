@@ -148,6 +148,11 @@ Options:
     - From bookmarks and history from browsers, make models and search pages related to models.
     - If we don't give keywords, keyword and word2vec can calculate similarities.
     - These NLP's function can make in my private repository, but I cannot make well in package, dirty source code, I'll make fix. 
+    
+# Question or Bug Report
+
+If you have questions, or have some requests, bag reports, please tell me by issues!
+Thank you!
 
 # Reference Paper
 
