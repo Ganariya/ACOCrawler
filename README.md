@@ -57,9 +57,9 @@ And ACOCrawler uses [Graph Database Neo4j](https://neo4j.com/), so you can visua
 
 # How to Use
 
-## Source Code
+### Source Code
 
-sample.py
+example.py
 ```python
 from ACOCrawler.acocrawler import AcoCrawler
 
@@ -112,9 +112,9 @@ crawler.solve()
 crawler.finish()
 ```
 
-## Command Line Interface
+### Command Line Interface
 
-crawl
+crawl example
 ```bash
 ACOCrawler crawl --keyword "competitive programming" --keywords atocder --keywords codeforces --keywords c++ 
 ```
@@ -142,4 +142,14 @@ Options:
   --help                   Show this message and exit.
 ```
 
+# Future
+
+- Add Natural Language Processing
+    - From bookmarks and history from browsers, make models and search pages related to models.
+    - If we don't give keywords, keyword and word2vec can calculate similarities.
+    - These NLP's function can make in my private repository, but I cannot make well in package, dirty source code, I'll make fix. 
+
+# Reference Paper
+
+[Adaptive Web Search Based on a Colony of Cooperative Distributed Agents](https://link.springer.com/chapter/10.1007/978-3-540-45217-1_13)
 
