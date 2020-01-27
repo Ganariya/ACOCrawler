@@ -19,6 +19,7 @@ setup(
     author="ganariya",
     author_email="ganariya2525@gmail.com",
     description="ACO Web Crawler implemented by python",
+    long_description="This package can crawl with ant colony optimization implemented by python.",
     entry_points={
         'console_scripts': [
             'ACOCrawler=ACOCrawler.cli:main'
@@ -31,5 +32,5 @@ setup(
     name="ACOCrawler",
     packages=find_packages(),
     url="https://github.com/ganariya/ACOCrawler",
-    version='0.1.0'
+    version='0.2.0'
 )
